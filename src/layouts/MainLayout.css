@@ -1,0 +1,21 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+
+.header-container {
+  grid-area: header;
+}
+
+.main-container {
+  grid-area: main;
+}
+
+.footer-container {
+  grid-area: footer;
+}

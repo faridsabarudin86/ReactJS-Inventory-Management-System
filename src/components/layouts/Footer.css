@@ -1,0 +1,11 @@
+.footer-bar-container {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
